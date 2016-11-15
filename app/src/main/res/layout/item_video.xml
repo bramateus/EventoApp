@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#f4f4f4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_video_play"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:background="@android:color/white"
+        android:padding="5dp"
+        >
+
+        
+        <TextView
+            android:textSize="24sp"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:id="@+id/titulo"
+            android:text="Principais erros e metodo..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:id="@+id/data"
+            android:text="26/09/2016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_seta_direita"/>
+
+
+</LinearLayout>

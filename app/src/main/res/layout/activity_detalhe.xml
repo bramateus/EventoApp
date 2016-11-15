@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalhe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    android:padding="10dp"
+    tools:context="br.com.androidpro.eventoapp.DetalheActivity">
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="5"
+     android:src="@drawable/video_player"
+     />
+
+
+
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="5"
+     android:background="@android:color/white"
+     android:padding="5dp"
+     >
+
+
+  <TextView
+      android:textSize="24sp"
+      android:textColor="#666666"
+      android:textStyle="bold"
+      android:text="Titulo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+  <TextView
+      android:textSize="20sp"
+      android:id="@+id/titulo"
+      android:text="Principais erros e metodo..."
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+  <TextView
+      android:textSize="24sp"
+      android:textColor="#666666"
+      android:textStyle="bold"
+      android:layout_marginTop="5dp"
+      android:text="Data"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+  <TextView
+      android:textSize="20sp"
+      android:id="@+id/data"
+      android:text="26/09/2016"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+
+
+  <Button
+      android:id="@+id/botaoUrl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Acessar Video"
+      android:layout_marginTop="10dp"
+      android:textColor="@android:color/white"
+      android:background="@android:color/holo_red_light"
+      />
+
+
+
+ </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
